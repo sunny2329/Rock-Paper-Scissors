@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Exo+2:wght@900&family=Pacifico&family=Questrial&family=Roboto+Mono:wght@100&family=Rubik+Maps&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a1010;
+    padding: 30px;
+    font-family: 'Rubik Maps';
+    color: rgb(122, 198, 122);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.one{
+    background-color: rgb(190, 19, 19);
+    padding: 30px;
+    font-size: 8rem;
+    border-radius: 50%;
+}
+.two{
+    background-color: rgb(49, 93, 164);
+    padding: 30px;
+    font-size: 8rem;
+    border-radius: 50%;
+}
+.three{
+    background-color: rgb(226, 172, 35);
+    padding: 30px;
+    font-size: 8rem;
+    border-radius: 50%;
+}
+
+.one:hover,.two:hover,.three:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+h2{
+    font-size: 5rem;
+    color: #212121;
+}
+p{
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.result,.win{
+    color: yellow;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.btn{
+    color: yellow;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+ @media  (min-width:670px) {
+    .options{
+        width: 60%;
+    }
+} 
